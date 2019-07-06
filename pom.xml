@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.pixipanda</groupId>
-  <artifactId>ecommerceproducer</artifactId>
+  <artifactId>clickstreamproducer</artifactId>
   <version>1.0-SNAPSHOT</version>
   <inceptionYear>2008</inceptionYear>
 
@@ -74,7 +74,7 @@
   <build>
     <sourceDirectory>src/main/scala</sourceDirectory>
     <!--<testSourceDirectory>src/test/scala</testSourceDirectory>-->
-    <finalName>pixipanda-ecommerceproducer</finalName>
+    <finalName>pixipanda-clickstreamproducer</finalName>
     <plugins>
       <plugin>
         <groupId>org.scala-tools</groupId>

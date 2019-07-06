@@ -1,4 +1,4 @@
-package  com.pixipanda.loggenerator
+package  com.pixipanda.clickstreamgenerator
 
 import java.util.{Calendar, Date}
 
@@ -28,7 +28,7 @@ case class ApacheAccessLogCombined(ipAddress: String, userId: String,
 
 
 
-class EcommerceLogGenerator(config: Config) {
+class ClickStreamGenerator(config: Config) {
 
 
   val requestsFile = config.getString("requests")

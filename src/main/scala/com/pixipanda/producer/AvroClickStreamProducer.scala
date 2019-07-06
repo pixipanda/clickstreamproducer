@@ -3,7 +3,7 @@ package com.pixipanda.producer
 import java.util.Properties
 
 import com.pixipanda.avro.ClickStream
-import com.pixipanda.loggenerator.ApacheAccessLogCombined
+import com.pixipanda.clickstreamgenerator.ApacheAccessLogCombined
 import com.typesafe.config.Config
 import org.apache.avro.generic.GenericData
 import org.apache.kafka.clients.producer.{ProducerRecord, KafkaProducer}
